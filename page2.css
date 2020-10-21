@@ -130,16 +130,64 @@ html, body{
 }
 
 .container-delapan{
+    width: 45px;
     position: absolute;
-    right: 200px;
-    top: 50px;
-    cursor: pointer;
+    right: 190px;
+    top: 70px;
+    /* cursor: pointer; */
+    display: flex;
+    justify-content: space-around;
 }
 
 .container-delapan img{
     width: 20px;
     height: 20px;
 }
+
+/* Pop Up */
+
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+
+  }
+  
+  /* The actual popup */
+  .popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    /* z-index: 1; */
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+  }
+    
+  /* Toggle this class - hide and show the popup */
+  .popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+  }
+  
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
+
+/* Pop Up End  */
 
 .container-sembilan{
     font-family: 'Roboto', sans-serif;
