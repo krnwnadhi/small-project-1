@@ -27,8 +27,10 @@ function myFunction() {
 function fitur() {
     if (i = 0) {
         alert("Keranjangmu Kosong")
+    } else if (i > 9) {
+        alert("Keranjang Belanja Kamu penuh. Ayo Dong di Checkout")
     } else {
-        alert(popup)
+        alert("Ayo Dong di Checkout")
     }
 }
 
