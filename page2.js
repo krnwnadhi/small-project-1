@@ -11,6 +11,16 @@ function incNumber() {
     document.getElementById("display").innerHTML = i;
 }
 
+function minusCart() {
+
+    if (i > 0) {
+        i--;
+    } else if (i = "9+") {
+        i = 8;
+    }
+    document.getElementById("display").innerHTML = i;
+};
+
 // Akhir Fitur Checkout
 
 // Fitur Pop Up
